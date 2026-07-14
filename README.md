@@ -37,10 +37,3 @@ Raw neural data lives on the data drives, **not** in this repo:
 
 Large binary blobs (`.mat`, `.h5`, `.npz`, `.npy`, …) are git-ignored by default —
 commit **derived** figure inputs and the rendered figures, not multi-GB source recordings.
-
-## Related repositories (siblings in `/home/user/Desktop/HongyiGithub/`)
-
-- **BetaPaper** — manuscript, supplementary material, and figures for the BCI beta paper
-- **BCISignalAnalysis_Python** — signal-analysis tooling
-- **bci_plot** — plotting utilities
-- **ProjectManager** — cross-machine coordination and the Obsidian knowledge-base vault
