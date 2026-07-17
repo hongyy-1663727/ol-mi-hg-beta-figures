@@ -1,0 +1,7 @@
+# Core — required for all figures (tested with the versions noted)
+numpy>=1.21        # tested 1.21.5
+scipy>=1.8         # tested 1.8.0  (note: scipy.signal.detrend's 2nd positional arg is `axis`; pass type= by keyword)
+matplotlib>=3.5    # tested 3.5.1
+
+# Only needed to re-run the server-side extraction stages (reading raw .mat via HDF5)
+h5py>=3.0
